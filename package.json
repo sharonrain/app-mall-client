@@ -1,5 +1,5 @@
 {
-  "name": "appmall",
+  "name": "app-mall-client",
   "version": "0.0.2",
   "description": "a small mall for wechat",
   "main": "dist/app.js",
@@ -10,11 +10,11 @@
     "clean": "find ./dist -maxdepth 1 -not -name 'project.config.json' -not -name 'dist' | xargs rm -rf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "wepy": {
+  /*"wepy": {
     "module-a": false,
     "./src/components/list": "./src/components/wepy-list.wpy"
-  },
-  "author": "Xiaoyu Lu <xiaoyl@microsoft.com>",
+  },*/
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "redux": "^3.7.2",
